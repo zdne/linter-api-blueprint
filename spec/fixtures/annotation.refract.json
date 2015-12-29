@@ -1,0 +1,21 @@
+{
+  "element": "annotation",
+  "meta": {
+    "classes": [
+      "warning"
+    ]
+  },
+  "attributes": {
+    "code": 6,
+    "sourceMap": [{
+      "element": "sourceMap",
+      "content": [
+        [
+          0,
+          9
+        ]
+      ]
+    }]
+  },
+  "content": "action is missing a response"
+}

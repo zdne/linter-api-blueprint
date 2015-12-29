@@ -1,0 +1,31 @@
+{
+  "name": "linter-api-blueprint",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "Lint API Bluperint files using Protagonist",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zdne/linter-api-blueprint"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-linter": "^4.0.1",
+    "atom-package-deps": "^3.0.6",
+    "protagonist": "^1.2.2",
+    "minim": "^0.12.3",
+    "minim-parse-result": "^0.2.1"
+  },
+  "packages-deps": [
+    "linter"
+  ]
+}

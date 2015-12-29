@@ -1,2 +1,2 @@
 # linter-api-blueprint
-Atom Linter for API Bluperint
+Atom Linter for API Blueprint
