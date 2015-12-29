@@ -18,6 +18,9 @@
       }
     }
   },
+  "activationCommands": {
+    "atom-workspace": "linter-api-blueprint:parse"
+  },
   "dependencies": {
     "atom-linter": "^4.0.1",
     "atom-package-deps": "^3.0.6",

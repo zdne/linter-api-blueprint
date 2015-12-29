@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'API Bluperint Linter'
+      'submenu': [
+        {
+          'label': 'Parse Result'
+          'command': 'linter-api-blueprint:parse'
+        }
+      ]
+    ]
+  }
+]

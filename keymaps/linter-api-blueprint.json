@@ -1,0 +1,5 @@
+{
+  ".editor": {
+    "ctrl-alt-p": "linter-api-blueprint:parse"
+  }
+}
