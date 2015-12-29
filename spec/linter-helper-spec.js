@@ -3,6 +3,7 @@
 const minim = require('minim').namespace()
 
 import {
+  lineEndingsIndices,
   resolutionType,
   resolutionRange,
   createResolution
@@ -28,13 +29,35 @@ describe('API Blueprint linter helpers', () => {
     })
   })
 
+  describe('Line endings indices helper', () => {
+
+    it('computes the line endings indices', () => {
+      const text = "one\ntwo\nthree\n"
+      let endingsIndices = lineEndingsIndices(text)
+      expect(endingsIndices).toEqual([3, 7, 13])
+    })
+
+  })
+
   describe('Resolution range helper', () => {
 
-    it ('computes the correct range', () => {
+    it('computes the correct range', () => {
+      let textBuffer = "\
+# GET /r\n\
+- response 200\n\
+\n\
+    {\n\
+        ...\n\
+    }\n"
+
+      let endingsIndices = lineEndingsIndices(textBuffer)
       let annotation = minim.fromRefract(ComplexSourceMapFixture)
       let sourceMap = annotation.attributes.get('sourceMap')
-      let range = resolutionRange(sourceMap)
-      expect(range.length).toEqual([[3,4], [5,5]])
+      let range = resolutionRange(endingsIndices, sourceMap)
+      expect(range).toEqual([
+        [3, 4],
+        [5, 5]
+      ])
     })
 
   })
