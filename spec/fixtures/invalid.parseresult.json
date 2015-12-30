@@ -1,0 +1,83 @@
+{
+  "element": "parseResult",
+  "content": [
+    {
+      "element": "category",
+      "meta": {
+        "classes": [
+          "api"
+        ],
+        "title": ""
+      },
+      "content": [
+        {
+          "element": "category",
+          "meta": {
+            "classes": [
+              "dataStructures"
+            ]
+          },
+          "content": [
+            {
+              "element": "dataStructure",
+              "content": [
+                {
+                  "element": "A",
+                  "meta": {
+                    "id": "A"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "annotation",
+      "meta": {
+        "classes": [
+          "error"
+        ]
+      },
+      "attributes": {
+        "code": 4,
+        "sourceMap": [
+          {
+            "element": "sourceMap",
+            "content": [
+              [
+                18,
+                8
+              ]
+            ]
+          }
+        ]
+      },
+      "content": "base type 'A' circularly referencing itself"
+    },
+    {
+      "element": "annotation",
+      "meta": {
+        "classes": [
+          "warning"
+        ]
+      },
+      "attributes": {
+        "code": 8,
+        "sourceMap": [
+          {
+            "element": "sourceMap",
+            "content": [
+              [
+                18,
+                8
+              ]
+            ]
+          }
+        ]
+      },
+      "content": "unable to find the symbol `A` in the list of named types"
+    }
+  ]
+}

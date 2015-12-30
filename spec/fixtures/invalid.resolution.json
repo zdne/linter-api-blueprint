@@ -1,0 +1,9 @@
+{
+  "filePath": "./fixtures/invalid.apib",
+  "type": "Error",
+  "text": "base type 'A' circularly referencing itself",
+  "range": [
+    [1, 0],
+    [1, 7]
+  ]
+}
