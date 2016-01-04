@@ -34,5 +34,5 @@ Much needed. Fork & pull request.
 
 [API Blueprint]: https://github.com/apiaryio/api-blueprint
 [Linter]: https://github.com/atom-community/linter
-[Protagonist]: (https://github.com/apiaryio/protagonist)
+[Protagonist]: https://github.com/apiaryio/protagonist
 [Parse Result Namespace]: https://github.com/refractproject/refract-spec/blob/master/namespaces/parse-result-namespace.md
