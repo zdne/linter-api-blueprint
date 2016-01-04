@@ -1,4 +1,5 @@
 # linter-api-blueprint
+[![Circle CI](https://circleci.com/gh/zdne/linter-api-blueprint.svg?style=svg)](https://circleci.com/gh/zdne/linter-api-blueprint)
 
 Atom Linter for API Blueprint
 
