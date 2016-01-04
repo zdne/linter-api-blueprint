@@ -2,7 +2,7 @@
   "name": "linter-api-blueprint",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "Lint API Bluperint files using Protagonist",
+  "description": "Lint API Blueprint files using Protagonist",
   "repository": {
     "type": "git",
     "url": "https://github.com/zdne/linter-api-blueprint"
