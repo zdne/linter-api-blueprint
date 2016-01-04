@@ -10,7 +10,7 @@ provides interface to API Blueprint parser ([Protagonist][]).
 Files with the `.apib` extension are validated on the flight.
 
 To access raw parser result use the `ctrl+option+p` commands shortcut. See
-Refract [Parse Result Namespace][] for description of the output
+Refract [Parse Result Namespace][] for description of the output.
 
 ## Installation
 
