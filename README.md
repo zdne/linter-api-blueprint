@@ -7,7 +7,7 @@ This linter plugin for [Linter][]
 provides interface to API Blueprint parser ([Protagonist][]).
 
 ## Usage
-Files with the `.apib` extension are validation on the flight.
+Files with the `.apib` extension are validated on the flight.
 
 To access raw parser result use the `ctrl+option+p` commands shortcut. See
 Refract [Parse Result Namespace][] for description of the output
