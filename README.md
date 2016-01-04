@@ -1,7 +1,7 @@
 # linter-api-blueprint
 [![Circle CI](https://circleci.com/gh/zdne/linter-api-blueprint.svg?style=svg)](https://circleci.com/gh/zdne/linter-api-blueprint)
 
-Atom Linter for API Blueprint
+Atom Linter for [API Blueprint][]
 
 This linter plugin for [Linter][]
 provides interface to API Blueprint parser ([Protagonist][]).
@@ -32,6 +32,7 @@ Blueprint parser from its sources.
 
 Much needed. Fork & pull request.
 
+[API Blueprint]: https://github.com/apiaryio/api-blueprint
 [Linter]: https://github.com/atom-community/linter
 [Protagonist]: (https://github.com/apiaryio/protagonist)
 [Parse Result Namespace]: https://github.com/refractproject/refract-spec/blob/master/namespaces/parse-result-namespace.md
