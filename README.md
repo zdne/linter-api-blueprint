@@ -4,7 +4,7 @@
 Atom Linter for [API Blueprint][]
 
 This linter plugin for [Linter][]
-provides interface to API Blueprint parser.
+provides interface to API Blueprint parser ([Protagonist][]).
 
 ## Usage
 Files with the `.apib` extension are validated on the flight.
@@ -34,4 +34,5 @@ Much needed. Fork & pull request.
 
 [API Blueprint]: https://github.com/apiaryio/api-blueprint
 [Linter]: https://github.com/atom-community/linter
+[Protagonist]: https://github.com/apiaryio/protagonist
 [Parse Result Namespace]: https://github.com/refractproject/refract-spec/blob/master/namespaces/parse-result-namespace.md
