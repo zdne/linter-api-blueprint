@@ -25,8 +25,10 @@ apm install linter
 apm install language-api-blueprint
 ```
 
-Note: The installation may take some time as it includes building of the API
+**Note:** The installation may take some time as it includes building of the API
 Blueprint parser from its sources.
+
+**Note:** On Windows with MSVS 2015 make sure to run `$ set GYP_MSVS_VERSION=2015` prior to `$ apm install linter-api-blueprint`.
 
 ## Contribution
 
